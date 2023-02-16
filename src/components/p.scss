@@ -1,0 +1,46 @@
+.p {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+    &-content {
+        max-width: 1200px;
+        margin: 0 auto;
+
+
+        &-title{
+            color: #782304;
+text-align: center;
+            font-size: 10rem;
+            font-weight: 700;
+
+
+        }
+        &-stix{
+            color: #782304;
+            text-align: center;
+            font-weight: 700;
+            font-size: 3rem;
+        }
+        &-italic{
+            margin-top: 50px;
+            font-style: italic;
+
+            font-weight: 700;
+            font-size: 3rem;
+            padding: 40px 0;
+        }
+        &-meop{
+            font-size: 1.9rem;
+            font-weight: 700;
+            padding: 40px 0;
+            font-weight: 700;
+
+        }
+
+        p {
+            margin: 0;
+        }
+    }
+}

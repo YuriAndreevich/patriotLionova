@@ -1,31 +1,41 @@
-.WeNewPeople{
+.WeNewPeople {
     background: url('/img/bg.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
 
-    p{
+    p {
         margin: 0;
     }
-    &-agl{
+
+    &-agl {
         text-align: right;
         margin-bottom: 100px;
     }
-    &-stix{
+
+    &-stix {
         max-width: 1200px;
         margin: 0 auto;
-        p{font-size: 2rem;}
-        &-right{
-text-align: right;
+        p {
+            font-size: 2rem;
         }
-        &-left{
+        strong{
+            color: #782304;
+        }
+
+        &-right {
+            text-align: right;
+        }
+
+        &-left {
             text-align: left;
         }
-        &-center{
+
+        &-center {
             text-align: center;
 
         }
-        }
+    }
 
 }

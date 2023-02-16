@@ -1,9 +1,14 @@
 import React from "react";
+
+import { motion } from "framer-motion"
+
 import "./WeNewPeople.scss";
 
 function WeNewPeople() {
   return (
-    <div className="WeNewPeople">
+    <div 
+
+    className="WeNewPeople">
       <div className="content">
         <div className="WeNewPeople-agl">
           <p>«…И уже через мгновение уходящий год –</p>
@@ -21,7 +26,12 @@ function WeNewPeople() {
           </p>
           <p>А.Г.Лукашенко</p>
         </div>
-        <div className="WeNewPeople-stix">
+        <motion.div className="WeNewPeople-stix"
+            initial={{  opacity: 0}}
+            animate={{ x: -100, opacity: 1, }}
+            duration='10'
+            transition={{ duration: 2 }}
+            >
           <p className="WeNewPeople-stix-left">   <strong>Мы – новое поколение!          </strong>     </p>
           <p className="WeNewPeople-stix-left">   <strong>Мы никогда не забудем          </strong>   </p>
           <p className="WeNewPeople-stix-left">   <strong>ваших отважных лиц!            </strong> </p>
@@ -37,7 +47,7 @@ function WeNewPeople() {
           <p className="WeNewPeople-stix-right">  <strong>мы-времени новых рук!          </strong>     </p>
           <p className="WeNewPeople-stix-left">   <strong>Ведь мы иное поколенье,        </strong>                 </p>
           <p className="WeNewPeople-stix-left">   <strong>Мы будущего флаг!              </strong>           </p>
-        </div>
+        </motion.div>
       </div>
     </div>
   );
