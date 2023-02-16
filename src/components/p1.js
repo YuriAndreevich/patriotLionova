@@ -5,8 +5,7 @@ import p1bg from "../img/p1bg.jpg";
 function p1() {
   return (
     <div
-    className="p"
-    
+      className="p"
       style={{
         background: `url('${p1bg}')`,
         backgroundPosition: "center",
@@ -32,7 +31,7 @@ function p1() {
         </p>
         <p>
           <strong>
-            2. Видео-эстафета «Солдатский подвиг поэтической строкой»{" "}
+            2. Видео-эстафета «Солдатский подвиг поэтической строкой»
           </strong>
         </p>
         <p>
