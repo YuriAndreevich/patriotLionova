@@ -1,8 +1,10 @@
 import React from "react";
 import "./p.scss";
 import p1bg from "../img/p1bg.jpg";
+import MButton from "./button";
+import Modal from './modal'
+function P1() {
 
-function p1() {
   return (
     <div
       className="p"
@@ -26,20 +28,15 @@ function p1() {
           «ПАМЯТЬ» представляет собой блок мероприятий, посвященных Великой
           Победе.
         </p>
-        <p>
-          <strong>1. Видео-посвящение «Прадеды, деды – солдаты Победы» </strong>
-        </p>
-        <p>
-          <strong>
-            2. Видео-эстафета «Солдатский подвиг поэтической строкой»
-          </strong>
-        </p>
-        <p>
-          <strong>3. Эстафета поколений «Мир в наследство» </strong>
-        </p>
+
+          
+        <MButton> 1. Видео-посвящение «Прадеды, деды – солдаты Победы» </MButton>
+      <Modal />
+            <MButton> 2. Видео-эстафета «Солдатский подвиг поэтической строкой»</MButton>
+            <MButton> 3. Эстафета поколений «Мир в наследство» </MButton>
       </div>
     </div>
   );
 }
 
-export default p1;
+export default P1;

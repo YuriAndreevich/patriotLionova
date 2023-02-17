@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import './main.scss'
+import Card from '../../card'
 
 function main() {
   return (
@@ -19,6 +20,7 @@ function main() {
       <div className="main-patriot-desc">
         <Link to="/patriot/wenewpeople"> мы - новое поколение!»</Link>
       </div>
+      <Card/>
     </div>
   );
 }
