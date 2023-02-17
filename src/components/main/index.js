@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import './main.scss'
-import Card from '../../card'
+import Card from './card'
 
 function main() {
   return (

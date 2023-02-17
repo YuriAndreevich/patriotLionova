@@ -13,7 +13,7 @@ import "./styles.css";
 // import required modules
 import { FreeMode, Navigation, Thumbs } from "swiper";
 
-export default function App() {
+export default function Card() {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
 
   return (
