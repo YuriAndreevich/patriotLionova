@@ -1,6 +1,6 @@
 .main {
     background: url('/img/mbg.jpg');
-    background-position: center;
+    // background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -11,6 +11,11 @@
 
     &-patriot {
         padding-top: 250px;
+
+        &-card {
+            display: flex;
+            justify-content: center;
+        }
 
         a {
             text-decoration: none;
@@ -25,7 +30,8 @@
             -webkit-text-fill-color: transparent;
 
         }
-        &-desc{
+
+        &-desc {
             text-decoration: none;
 
             font-size: 6rem;

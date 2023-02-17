@@ -2,7 +2,7 @@ import React from "react";
 import "./p.scss";
 import p1bg from "../img/p1bg.jpg";
 import MButton from "./button";
-import Modal from './modal'
+
 function P1() {
 
   return (
@@ -31,7 +31,6 @@ function P1() {
 
           
         <MButton> 1. Видео-посвящение «Прадеды, деды – солдаты Победы» </MButton>
-      <Modal />
             <MButton> 2. Видео-эстафета «Солдатский подвиг поэтической строкой»</MButton>
             <MButton> 3. Эстафета поколений «Мир в наследство» </MButton>
       </div>

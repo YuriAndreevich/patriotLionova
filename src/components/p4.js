@@ -1,6 +1,7 @@
 import React from "react";
 import p4bg from "../img/p4bg.jpg";
 import "./p.scss";
+import MButton from "./button";
 
 function p4() {
   return (
@@ -14,12 +15,16 @@ function p4() {
       }}
     >
       <div className="p-content">
-        <p           style={{
+        <p
+          style={{
             color: "#782304",
             textAlign: "center",
             fontSize: "8.8rem",
             padding: "30px",
-          }}>РОДИНА МАЛАЯ</p>
+          }}
+        >
+          РОДИНА МАЛАЯ
+        </p>
         <p className="p-content-stix">Мы – новое поколение!</p>
         <p className="p-content-stix"> Мы будущего звено!</p>
 
@@ -33,18 +38,11 @@ function p4() {
           государственность, белорусская история и культура, белорусская
           духовность.
         </p>
-        <p>
-          <strong>
-            1. Виртуальное краеведческое ориентирование «1160 лет городу
-            Полоцку»
-          </strong>
-        </p>
-        <p>
-          <strong>2. Турнир знатоков «Тайны полоцкой истории»</strong>
-        </p>
-        <p>
-          <strong>3. Буктрейлер по роману Т.Хаткевича «Песня Двины»</strong>
-        </p>
+        <MButton>
+          1. Виртуальное краеведческое ориентирование «1160 лет городу Полоцку»
+        </MButton>
+        <MButton> 2. Турнир знатоков «Тайны полоцкой истории»</MButton>
+        <MButton> 3. Буктрейлер к роману Т.Хаткевича «Песня Двины»</MButton>
       </div>
     </div>
   );

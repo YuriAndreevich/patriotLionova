@@ -28,7 +28,7 @@ function WeNewPeople() {
         </div>
         <motion.div className="WeNewPeople-stix"
             initial={{  opacity: 0}}
-            animate={{ x: -100, opacity: 1, }}
+            animate={{  opacity: 1 }}
             duration='10'
             transition={{ duration: 2 }}
             >
