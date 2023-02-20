@@ -1,8 +1,8 @@
 import React from "react";
 import p4bg from "../img/p4bg.jpg";
 import "./p.scss";
-import MButton from "./button";
 import BackArrow from "./backarrow";
+import ModalComponent from "./ModalComponent";
 
 
 function p4() {
@@ -41,13 +41,11 @@ function p4() {
           государственность, белорусская история и культура, белорусская
           духовность.
         </p>
-        <MButton>
-          1. Виртуальное краеведческое ориентирование «1160 лет городу Полоцку»
-        </MButton>
-        <MButton> 2. Турнир знатоков «Тайны полоцкой истории»</MButton>
-        <MButton> 3. Буктрейлер к роману Т.Хаткевича «Песня Двины»</MButton>
-      </div>
-    </div>
+        <ModalComponent name='1. Виртуальное краеведческое ориентирование «1160 лет городу Полоцку»' href='' />
+        <ModalComponent name='2. Турнир знатоков «Тайны полоцкой истории»' href='' />
+        <ModalComponent name='3. Буктрейлер к роману Т.Хаткевича «Песня Двины»' href='' />
+      </div >
+    </div >
   );
 }
 

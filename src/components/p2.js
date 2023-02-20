@@ -1,8 +1,7 @@
 import React from "react";
 import p2bg from "../img/p2bg.jpg";
-import MButton from "./button";
 import BackArrow from "./backarrow";
-
+import ModalComponent from "./ModalComponent";
 
 
 function p2() {
@@ -39,12 +38,14 @@ function p2() {
           «АКТИВНАЯ ЖИЗНЕННАЯ ПОЗИЦИЯ» - мероприятия блока дают возможность
           участникам проявить себя в различных социальных ролях.
         </p>
-        <MButton>1. Сайт «Живая память прошлого»</MButton>
-        <MButton> 2. Ролик социальной направленности «Подари мечте крылья»</MButton>
-        <MButton> 3. Разговор на равных «Опасности, подстерегающие современную молодежь»</MButton>
 
-      </div>
-    </div>
+        <ModalComponent name='1. Сайт «Живая память прошлого»' href='' />
+        <ModalComponent name='2. Ролик социальной направленности «Подари мечте крылья»' href='' />
+        <ModalComponent name='3. Разговор на равных «Опасности, подстерегающие современную молодежь»' href='' />
+
+
+      </div >
+    </div >
   );
 }
 

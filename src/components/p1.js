@@ -1,8 +1,8 @@
 import React from "react";
 import "./p.scss";
 import p1bg from "../img/p1bg.jpg";
-import MButton from "./button";
 import BackArrow from "./backarrow";
+import ModalComponent from "./ModalComponent";
 
 function P1() {
 
@@ -31,12 +31,11 @@ function P1() {
           Победе.
         </p>
 
-
-        <MButton> 1. Видео-посвящение «Прадеды, деды – солдаты Победы» </MButton>
-        <MButton> 2. Видео-эстафета «Солдатский подвиг поэтической строкой»</MButton>
-        <MButton> 3. Эстафета поколений «Мир в наследство» </MButton>
-      </div>
-    </div>
+        <ModalComponent name='1. Видео-посвящение «Прадеды, деды – солдаты Победы»' href='https://drive.google.com/file/d/1w7ynngNWPR3y4yAg6NmUkbdNoqK_fYff/preview' />
+        <ModalComponent name='2. Видео-эстафета «Солдатский подвиг поэтической строкой»' href='https://drive.google.com/file/d/1n8LrRleB21mfnwumL24VbTos9D_SnfRH/preview' />
+        <ModalComponent name='3. Эстафета поколений «Мир в наследство»' href='' />
+      </div >
+    </div >
   );
 }
 

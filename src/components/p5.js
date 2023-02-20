@@ -1,8 +1,9 @@
 import React from "react";
 import "./p.scss";
 import p1bg from "../img/bg.jpg";
-import MButton from "./button";
 import BackArrow from "./backarrow";
+import ModalComponent from "./ModalComponent";
+
 
 
 function p5() {
@@ -30,10 +31,10 @@ function p5() {
           любых благ, мирных инициатив, нацеленных на устойчивое развитие и
           благополучие нашей страны.
         </p>
-        <MButton>  1. Акция «Размаўляй са мной па-беларуску»</MButton>
-        <MButton>    2. Историко-краеведческий маршрут «Поведай подвиги усатого героя»</MButton>
-      </div>
-    </div>
+        <ModalComponent name='1. Акция «Размаўляй са мной па-беларуску»' href='' />
+        <ModalComponent name='2. Историко-краеведческий маршрут «Поведай подвиги усатого героя»' href='' />
+      </div >
+    </div >
   );
 }
 
