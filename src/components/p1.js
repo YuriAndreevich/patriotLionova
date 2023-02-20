@@ -3,6 +3,7 @@ import "./p.scss";
 import p1bg from "../img/p1bg.jpg";
 import BackArrow from "./backarrow";
 import ModalComponent from "./ModalComponent";
+import Р3 from '../img/Р3.pdf'
 
 function P1() {
 
@@ -33,7 +34,7 @@ function P1() {
 
         <ModalComponent name='1. Видео-посвящение «Прадеды, деды – солдаты Победы»' href='https://drive.google.com/file/d/1w7ynngNWPR3y4yAg6NmUkbdNoqK_fYff/preview' />
         <ModalComponent name='2. Видео-эстафета «Солдатский подвиг поэтической строкой»' href='https://drive.google.com/file/d/1n8LrRleB21mfnwumL24VbTos9D_SnfRH/preview' />
-        <ModalComponent name='3. Эстафета поколений «Мир в наследство»' href='' />
+        <ModalComponent name='3. Эстафета поколений «Мир в наследство»' href={Р3} />
       </div >
     </div >
   );

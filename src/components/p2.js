@@ -2,6 +2,7 @@ import React from "react";
 import p2bg from "../img/p2bg.jpg";
 import BackArrow from "./backarrow";
 import ModalComponent from "./ModalComponent";
+import A3 from '../img/a3.docx'
 
 
 function p2() {
@@ -39,9 +40,9 @@ function p2() {
           участникам проявить себя в различных социальных ролях.
         </p>
 
-        <ModalComponent name='1. Сайт «Живая память прошлого»' href='' />
-        <ModalComponent name='2. Ролик социальной направленности «Подари мечте крылья»' href='' />
-        <ModalComponent name='3. Разговор на равных «Опасности, подстерегающие современную молодежь»' href='' />
+        <ModalComponent name='1. Сайт «Живая память прошлого»' href='http://genocide.sava.site/' />
+        <ModalComponent name='2. Ролик социальной направленности «Подари мечте крылья»' href='https://drive.google.com/file/d/1Ih_LiRwi5fsNAQGe0oVf_ZYXOi6NktKF/view?usp=sharing' />
+        <ModalComponent name='3. Разговор на равных «Опасности, подстерегающие современную молодежь»' href={A3} />
 
 
       </div >
