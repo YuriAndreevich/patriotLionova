@@ -2,6 +2,8 @@ import React from "react";
 import "./p.scss";
 import p1bg from "../img/bg.jpg";
 import MButton from "./button";
+import BackArrow from "./backarrow";
+
 
 function p5() {
   return (
@@ -14,6 +16,7 @@ function p5() {
         backgroundSize: "cover",
       }}
     >
+      <BackArrow />
       <div className="p-content">
         <p className="p-content-title">ИНИЦИАТИВА</p>
         <p className="p-content-stix">Мы открыватели новых судеб,</p>
@@ -27,8 +30,8 @@ function p5() {
           любых благ, мирных инициатив, нацеленных на устойчивое развитие и
           благополучие нашей страны.
         </p>
-   <MButton>  1. Акция «Размаўляй са мной па-беларуску»</MButton>
-   <MButton>    2. Историко-краеведческий маршрут «Поведай подвиги усатого героя»</MButton>
+        <MButton>  1. Акция «Размаўляй са мной па-беларуску»</MButton>
+        <MButton>    2. Историко-краеведческий маршрут «Поведай подвиги усатого героя»</MButton>
       </div>
     </div>
   );

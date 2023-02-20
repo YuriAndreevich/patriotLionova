@@ -1,13 +1,18 @@
 import React from "react";
 import p2bg from "../img/p2bg.jpg";
 import MButton from "./button";
+import BackArrow from "./backarrow";
+
 
 
 function p2() {
   return (
-    <div  className='p' style={{background: `url('${p2bg}')`,  backgroundPosition: 'center',
-    backgroundRepeat: 'no-repeat',
-    backgroundSize: 'cover'}}>
+    <div className='p' style={{
+      background: `url('${p2bg}')`, backgroundPosition: 'center',
+      backgroundRepeat: 'no-repeat',
+      backgroundSize: 'cover'
+    }}>
+      <BackArrow />
       <div className="p-content">
         <p
           style={{
@@ -34,9 +39,9 @@ function p2() {
           «АКТИВНАЯ ЖИЗНЕННАЯ ПОЗИЦИЯ» - мероприятия блока дают возможность
           участникам проявить себя в различных социальных ролях.
         </p>
-<MButton>1. Сайт «Живая память прошлого»</MButton>
-          <MButton> 2. Ролик социальной направленности «Подари мечте крылья»</MButton>
-          <MButton> 3. Разговор на равных «Опасности, подстерегающие современную молодежь»</MButton>
+        <MButton>1. Сайт «Живая память прошлого»</MButton>
+        <MButton> 2. Ролик социальной направленности «Подари мечте крылья»</MButton>
+        <MButton> 3. Разговор на равных «Опасности, подстерегающие современную молодежь»</MButton>
 
       </div>
     </div>

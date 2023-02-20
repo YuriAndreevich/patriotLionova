@@ -2,6 +2,7 @@ import React from "react";
 import "./p.scss";
 import p1bg from "../img/p1bg.jpg";
 import MButton from "./button";
+import BackArrow from "./backarrow";
 
 function P1() {
 
@@ -15,6 +16,7 @@ function P1() {
         backgroundSize: "cover",
       }}
     >
+      <BackArrow />
       <div className="p-content">
         <p className="p-content-title">ПАМЯТЬ</p>
         <p className="p-content-stix">Мы – новое поколение!</p>
@@ -29,10 +31,10 @@ function P1() {
           Победе.
         </p>
 
-          
+
         <MButton> 1. Видео-посвящение «Прадеды, деды – солдаты Победы» </MButton>
-            <MButton> 2. Видео-эстафета «Солдатский подвиг поэтической строкой»</MButton>
-            <MButton> 3. Эстафета поколений «Мир в наследство» </MButton>
+        <MButton> 2. Видео-эстафета «Солдатский подвиг поэтической строкой»</MButton>
+        <MButton> 3. Эстафета поколений «Мир в наследство» </MButton>
       </div>
     </div>
   );

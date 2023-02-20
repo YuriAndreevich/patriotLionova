@@ -2,6 +2,7 @@ import React from "react";
 import "./p.scss";
 import p1bg from "../img/p6bg.jpg";
 import MButton from "./button";
+import BackArrow from "./backarrow";
 
 function p7() {
   return (
@@ -14,6 +15,7 @@ function p7() {
         backgroundSize: "cover",
       }}
     >
+      <BackArrow />
       <div className="p-content">
         <p className="p-content-title">ТВОЙ ВКЛАД</p>
         <p className="p-content-stix">Ведь мы иное поколенье,</p>
@@ -28,8 +30,8 @@ function p7() {
           ответственности, взаимовыручки и взаимопомощи.
         </p>
 
-       <MButton>   1. Видео-обращение «Зачем помогать людям»</MButton>
-       <MButton>   2. Образовательный туризм «Город, знакомый до слез…»</MButton>
+        <MButton>   1. Видео-обращение «Зачем помогать людям»</MButton>
+        <MButton>   2. Образовательный туризм «Город, знакомый до слез…»</MButton>
       </div>
     </div>
   );

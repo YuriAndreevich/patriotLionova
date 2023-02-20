@@ -2,6 +2,8 @@ import React from "react";
 import p4bg from "../img/p4bg.jpg";
 import "./p.scss";
 import MButton from "./button";
+import BackArrow from "./backarrow";
+
 
 function p4() {
   return (
@@ -14,6 +16,7 @@ function p4() {
         backgroundSize: "cover",
       }}
     >
+      <BackArrow />
       <div className="p-content">
         <p
           style={{

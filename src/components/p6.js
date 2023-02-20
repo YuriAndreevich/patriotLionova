@@ -2,6 +2,7 @@ import React from "react";
 import "./p.scss";
 import p1bg from "../img/p5bg.jpg";
 import MButton from "./button";
+import BackArrow from "./backarrow";
 
 function p6() {
   return (
@@ -14,13 +15,14 @@ function p6() {
         backgroundSize: "cover",
       }}
     >
+      <BackArrow />
       <div className="p-content">
-        <p  style={{
-            color: "#782304",
-            textAlign: "center",
-            fontSize: "6rem",
-            padding: "30px",
-          }}>ОТЕЧЕСТВО КАК ЦЕННОСТЬ</p>
+        <p style={{
+          color: "#782304",
+          textAlign: "center",
+          fontSize: "6rem",
+          padding: "30px",
+        }}>ОТЕЧЕСТВО КАК ЦЕННОСТЬ</p>
         <p className="p-content-stix">Мы верны своей отчизне,</p>
         <p className="p-content-stix"> мы-времени новых рук!</p>
         <p className="p-content-italic">
@@ -34,8 +36,8 @@ function p6() {
           Беларусь и по их приятию; по знакомству с народами, населяющими нашу
           страну, их обычаями и традициями.
         </p>
-          <MButton>  1. Актуальная папка для правового ликбеза «Сила закона»</MButton>
-          <MButton> 2. Встреча-диалог культур «Нас познакомил Новополоцк»</MButton>
+        <MButton>  1. Актуальная папка для правового ликбеза «Сила закона»</MButton>
+        <MButton> 2. Встреча-диалог культур «Нас познакомил Новополоцк»</MButton>
       </div>
     </div>
   );
