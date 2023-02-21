@@ -15,17 +15,17 @@ function App() {
   return (
     <div className="main">
       <div className="main-patriot">
-        <Link to="/patriot/p1">«П</Link>
-        <Link to="/patriot/p2">А</Link>
-        <Link to="/patriot/p3">Т</Link>
-        <Link to="/patriot/p4">Р</Link>
-        <Link to="/patriot/p5">И</Link>
-        <Link to="/patriot/p6">О</Link>
-        <Link to="/patriot/p7">Т:</Link>
+        <Link to="/p1">«П</Link>
+        <Link to="/p2">А</Link>
+        <Link to="/p3">Т</Link>
+        <Link to="/p4">Р</Link>
+        <Link to="/p5">И</Link>
+        <Link to="/p6">О</Link>
+        <Link to="/p7">Т:</Link>
 
       </div>
       <div className="main-patriot-desc">
-        <Link to="/patriot/wenewpeople"> мы - новое поколение!»</Link>
+        <Link to="/wenewpeople"> мы - новое поколение!»</Link>
       </div>
       <div className="main-patriot-card">
         <ModalComponent src={img1} text='Год мира и созидания' data={data1} />

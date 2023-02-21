@@ -18,7 +18,7 @@ import P7 from "./components/p7";
 
 const router = createBrowserRouter([
   {
-    path: "/patriot",
+    path: "/",
     element: <App />,
     // errorElement: <ErrorPage />,
     // children: [
@@ -29,38 +29,38 @@ const router = createBrowserRouter([
     // ],
   },
   {
-    path: "/patriot/wenewpeople",
+    path: "/wenewpeople",
     element: <WeNewPeople />,
   },
   {
-    path: "/patriot/p1",
+    path: "/p1",
     element: <P1 />,
   },
   {
-    path: "/patriot/p2",
+    path: "/p2",
     element: <P2 />,
   },
   {
-    path: "/patriot/p3",
+    path: "/p3",
     element: <P3 />,
   },
   {
-    path: "/patriot/p4",
+    path: "/p4",
     element: <P4 />,
   },
   ,
   {
-    path: "/patriot/p5",
+    path: "/p5",
     element: <P5 />,
   },
   ,
   {
-    path: "/patriot/p6",
+    path: "/p6",
     element: <P6 />,
   },
   ,
   {
-    path: "/patriot/p7",
+    path: "/p7",
     element: <P7 />,
   },
 ]);
