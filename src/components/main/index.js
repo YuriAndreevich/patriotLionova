@@ -1,11 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import './main.scss'
-import Card from '../card'
 import img1 from '../../img/cards/1.jpg'
 import img2 from '../../img/cards/2.jpg'
 import img3 from '../../img/cards/3.jpg'
 import img4 from '../../img/cards/4.jpg'
+import ModalComponent from "components/ModalComponent/MainModal";
+import data1 from '../../img/cards/1/data.js'
+import data2 from '../../img/cards/2/data.js'
+import data3 from '../../img/cards/3/data.js'
+import data4 from '../../img/cards/4/data.js'
 
 function main() {
   return (
@@ -24,10 +28,10 @@ function main() {
         <Link to="/patriot/wenewpeople"> мы - новое поколение!»</Link>
       </div>
       <div className="main-patriot-card">
-        <Card src={img1} text='Год мира и созидания' />
-        <Card src={img2} text='К любому повороту готовы' />
-        <Card src={img3} text='Память, которой жить в веках' />
-        <Card src={img4} text='Такая добрая традиция' />
+        <ModalComponent src={img1} text='Год мира и созидания' data={data1} />
+        <ModalComponent src={img2} text='К любому повороту готовы' data={data2} />
+        <ModalComponent src={img3} text='Память, которой жить в веках' data={data3} />
+        <ModalComponent src={img4} text='Такая добрая традиция' data={data4} />
       </div>
 
     </div>
