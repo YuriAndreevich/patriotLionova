@@ -4,9 +4,9 @@ import i3 from './3.jpg'
 
 
 const data = [
-    { src: i1 },
     { src: i2 },
     { src: i3 },
+    { src: i1 },
 
 ]
 export default data
