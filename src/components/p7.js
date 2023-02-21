@@ -3,6 +3,8 @@ import "./p.scss";
 import p1bg from "../img/p6bg.jpg";
 import BackArrow from "./backarrow";
 import ModalComponent from "./ModalComponent";
+import tt2 from '../img/tt2.pdf'
+
 
 function p7() {
   return (
@@ -29,8 +31,8 @@ function p7() {
           учащимися общественно значимого результата своего труда, социальной
           ответственности, взаимовыручки и взаимопомощи.
         </p>
-        <ModalComponent name='1. Видео-обращение «Зачем помогать людям»' href='' />
-        <ModalComponent name='2. Образовательный туризм «Город, знакомый до слез…»' href='' />
+        <div> <ModalComponent name='1. Видео-обращение «Зачем помогать людям»' href='https://drive.google.com/file/d/1dKShCO1ZXq59YGgJDxotQ227FcR_qSDO/preview' /></div>
+        <div> <ModalComponent name='2. Образовательный туризм «Город, знакомый до слез…»' href={tt2} /></div>
       </div >
     </div >
   );

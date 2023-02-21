@@ -3,6 +3,10 @@ import "./p.scss";
 import p1bg from "../img/bg.jpg";
 import BackArrow from "./backarrow";
 import ModalComponent from "./ModalComponent";
+import ModalSwiper from './ModalComponent/Slider'
+import data from '../img/i1/data'
+import i2 from '../img/i2.pdf'
+
 
 
 
@@ -31,8 +35,8 @@ function p5() {
           любых благ, мирных инициатив, нацеленных на устойчивое развитие и
           благополучие нашей страны.
         </p>
-        <ModalComponent name='1. Акция «Размаўляй са мной па-беларуску»' href='' />
-        <ModalComponent name='2. Историко-краеведческий маршрут «Поведай подвиги усатого героя»' href='' />
+        <div><ModalSwiper name='1. Акция «Размаўляй са мной па-беларуску»' href='' data={data} /></div>
+        <div><ModalComponent name='2. Историко-краеведческий маршрут «Поведай подвиги усатого героя»' href={i2} /></div>
       </div >
     </div >
   );

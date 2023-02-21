@@ -1,0 +1,49 @@
+.main {
+  background: url('/img/mbg.jpg');
+  // background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+
+  p {
+      margin: 0;
+  }
+
+  &-patriot {
+      padding-top: 150px;
+      text-align: center;
+
+      &-card {
+          display: flex;
+          flex-wrap: wrap;
+          
+          justify-content: center;
+      }
+
+      a {
+          text-decoration: none;
+
+          font-size: 11rem;
+
+          //gradient
+          // background: -webkit-linear-gradient(#782304, #e2cf2b);
+          background: #782304;
+
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+
+      }
+
+      &-desc {
+          text-decoration: none;
+          text-align: center;
+          font-size: 6rem;
+          font-weight: 1000;
+          background: #782304;
+          // background: -webkit-linear-gradient(#782304, #e2cf2b);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+      }
+  }
+}

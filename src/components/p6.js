@@ -3,6 +3,8 @@ import "./p.scss";
 import p1bg from "../img/p5bg.jpg";
 import BackArrow from "./backarrow";
 import ModalComponent from "./ModalComponent";
+import o2 from '../img/o2.pdf'
+import o1 from '../img/o1.pdf'
 
 
 function p6() {
@@ -37,8 +39,8 @@ function p6() {
           Беларусь и по их приятию; по знакомству с народами, населяющими нашу
           страну, их обычаями и традициями.
         </p>
-        <ModalComponent name='1. Актуальная папка для правового ликбеза «Сила закона»' href='' />
-        <ModalComponent name='2. Встреча-диалог культур «Нас познакомил Новополоцк»' href='' />
+        <div><ModalComponent name='1. Актуальная папка для правового ликбеза «Сила закона»' href={o1} /></div>
+        <div> <ModalComponent name='2. Встреча-диалог культур «Нас познакомил Новополоцк»' href={o2} /></div>
       </div >
     </div >
   );

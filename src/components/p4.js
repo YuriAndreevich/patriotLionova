@@ -3,7 +3,9 @@ import p4bg from "../img/p4bg.jpg";
 import "./p.scss";
 import BackArrow from "./backarrow";
 import ModalComponent from "./ModalComponent";
-
+import ModalSwiper from './ModalComponent/Slider'
+import data from '../img/rod1/data'
+import p2 from '../img/p2.pdf'
 
 function p4() {
   return (
@@ -41,9 +43,10 @@ function p4() {
           государственность, белорусская история и культура, белорусская
           духовность.
         </p>
-        <ModalComponent name='1. Виртуальное краеведческое ориентирование «1160 лет городу Полоцку»' href='' />
-        <ModalComponent name='2. Турнир знатоков «Тайны полоцкой истории»' href='' />
-        <ModalComponent name='3. Буктрейлер к роману Т.Хаткевича «Песня Двины»' href='' />
+        <div>
+          <ModalSwiper name='1. Виртуальное краеведческое ориентирование «1160 лет городу Полоцку»' href='' data={data} /> </div>
+        <div><ModalComponent name='2. Турнир знатоков «Тайны полоцкой истории»' href={p2} /></div>
+        <div> <ModalComponent name='3. Буктрейлер к роману Т.Хаткевича «Песня Двины»' href='https://drive.google.com/file/d/1uouBiIvedoGWXA7XPySB-rIHR3KRoNuO/preview' /></div>
       </div >
     </div >
   );

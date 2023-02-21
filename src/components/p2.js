@@ -20,6 +20,7 @@ function p2() {
             textAlign: "center",
             fontSize: "6rem",
             padding: "30px",
+
           }}
         >
           АКТИВНАЯ ЖИЗНЕННАЯ ПОЗИЦИЯ
@@ -40,9 +41,9 @@ function p2() {
           участникам проявить себя в различных социальных ролях.
         </p>
 
-        <ModalComponent name='1. Сайт «Живая память прошлого»' href='http://genocide.sava.site/' />
-        <ModalComponent name='2. Ролик социальной направленности «Подари мечте крылья»' href='https://drive.google.com/file/d/1Ih_LiRwi5fsNAQGe0oVf_ZYXOi6NktKF/view?usp=sharing' />
-        <ModalComponent name='3. Разговор на равных «Опасности, подстерегающие современную молодежь»' href={A3} />
+        <div> <ModalComponent name='1. Сайт «Живая память прошлого»' href='http://genocide.sava.site/' /></div>
+        <div> <ModalComponent name='2. Ролик социальной направленности «Подари мечте крылья»' href='https://drive.google.com/file/d/1Ih_LiRwi5fsNAQGe0oVf_ZYXOi6NktKF/preview' /></div>
+        <div> <ModalComponent name='3. Разговор на равных «Опасности, подстерегающие современную молодежь»' href={A3} /></div>
 
 
       </div >

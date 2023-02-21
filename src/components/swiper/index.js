@@ -49,7 +49,6 @@ export default function MainSwiper(props) {
                 {props.data.map((item, index) => (
                     <SwiperSlide key={index}>
                         <img src={item.src} alt='' />
-                        {console.log(item.src)}
                     </SwiperSlide>
                 ))}
             </Swiper>
