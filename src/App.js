@@ -14,7 +14,7 @@ import data4 from './img/cards/4/data.js'
 function App() {
   return (
     <div className="main">
-      <div className="main-patriot">
+      <div className="main-patriot shyne">
         <Link to="/p1">«П</Link>
         <Link to="/p2">А</Link>
         <Link to="/p3">Т</Link>
@@ -22,7 +22,6 @@ function App() {
         <Link to="/p5">И</Link>
         <Link to="/p6">О</Link>
         <Link to="/p7">Т:</Link>
-
       </div>
       <div className="main-patriot-desc">
         <Link to="/wenewpeople"> мы - новое поколение!»</Link>

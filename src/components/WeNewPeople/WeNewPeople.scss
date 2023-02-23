@@ -18,10 +18,12 @@
     &-stix {
         max-width: 1200px;
         margin: 0 auto;
+
         p {
             font-size: 2rem;
         }
-        strong{
+
+        strong {
             color: #782304;
         }
 
@@ -35,15 +37,16 @@
 
         &-center {
             text-align: center;
-
         }
     }
-
 }
 
-@media (max-width: 1239px){
-.WeNewPeople-stix p {
-    font-size: 1rem;}
+@media (max-width: 1239px) {
+    .WeNewPeople-stix p {
+        font-size: 1rem;
+    }
+
     .WeNewPeople-agl {
-        margin-bottom: 26px;}
+        margin-bottom: 26px;
+    }
 }
