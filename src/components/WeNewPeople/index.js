@@ -4,6 +4,7 @@ import BackArrow from "components/backarrow";
 import { motion } from "framer-motion"
 
 import "./WeNewPeople.scss";
+import "../../App.scss"
 
 function WeNewPeople() {
   return (

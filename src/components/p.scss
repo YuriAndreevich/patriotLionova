@@ -9,19 +9,21 @@
         margin: 0 auto;
 
 
-        &-title{
+        &-title {
             color: #782304;
-text-align: center;
+            text-align: center;
             font-size: 10rem;
             font-weight: 700;
         }
-        &-stix{
+
+        &-stix {
             color: #782304;
             text-align: center;
             font-weight: 700;
             font-size: 2.5rem;
         }
-        &-italic{
+
+        &-italic {
             margin-top: 50px;
             font-style: italic;
 
@@ -29,7 +31,8 @@ text-align: center;
             font-size: 2.5rem;
             padding: 20px 0;
         }
-        &-meop{
+
+        &-meop {
             font-size: 1.9rem;
             font-weight: 700;
             padding: 20px 0;
@@ -41,4 +44,27 @@ text-align: center;
             margin: 0;
         }
     }
+}
+
+@media (max-width: 1239px) {
+    .p-content-title {
+        font-size: 4rem;
+    }
+
+    .p-content-stix {
+        font-size: 1.5rem;
+    }
+
+    .p-content-italic {
+        font-size: 1.2rem;
+    }
+
+    .p-content-meop {
+        font-size: 1.3rem;
+    }
+
+    .p {
+        height: 100%;
+    }
+
 }
