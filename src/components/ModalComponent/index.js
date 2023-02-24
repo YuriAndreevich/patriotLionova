@@ -24,7 +24,8 @@ function ModalComponent(props) {
 
     return (
         <>
-            <Button color='#782304' onClick={onOpen}>{props.name}</Button>
+    {props.text ?  (<Button  style={{position:'absolute', bottom:'0', right:'0'}} color='#782304' onClick={onOpen}>{props.name}</Button> ):(  <Button  color='#782304' onClick={onOpen}>{props.name}</Button> )}
+           
             <Modal
                 size={props.full ? 'full' : '4xl'}
                 onClose={onClose}
@@ -36,10 +37,12 @@ function ModalComponent(props) {
                     <ModalHeader>{props.name}</ModalHeader>
                     <ModalCloseButton />
                     <ModalBody>
-                        <iframe
-                            style={{ width: "100%", height: "70vh" }}
-                            src={props.href}
-                        />
+
+                        {props.text ? props.text :
+                                                <iframe
+                                                style={{ width: "100%", height: "70vh" }}
+                                                src={props.href}
+                                            /> }
                     </ModalBody>
                     <ModalFooter>
                         <Button onClick={onClose}>Закрыть</Button>
