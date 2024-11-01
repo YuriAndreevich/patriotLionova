@@ -12,6 +12,7 @@ import data2 from './img/cards/2/data.js'
 import data3 from './img/cards/3/data.js'
 import data4 from './img/cards/4/data.js'
 import { Button } from "@chakra-ui/react";
+import 'animate.css';
 
 function App() {
   return (
@@ -24,10 +25,15 @@ function App() {
         <Link to="/p5">И</Link>
         <Link to="/p6">О</Link>
         <Link to="/p7">Т:</Link>
+        
       </div>
       <div className="main-patriot-desc">
         <Link to="/wenewpeople"> мы - новое поколение!»</Link>
       </div>
+      <p className="text-desc">«Патриотизм-это фундамент современного образования»
+А.Лукашенко (Республиканский педагогический совет 27.09.2024)</p>
+<p className="text-desc-fade animate__animated animate__fadeInLeft  animate__slower">80-летию освобождения Беларуси от немецко-фашистских захватчиков
+80-летию Великой Победы</p>
       <div className="main-patriot-card">
         <ModalComponent src={img1} text='Год мира и созидания' data={data1} />
         <ModalComponent src={img2} text='К любому повороту готовы' data={data2} />
